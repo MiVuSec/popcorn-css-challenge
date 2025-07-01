@@ -3,3 +3,54 @@ Header background - #FFDBAA
 button - #805215
 Header Text - #553100
 Main background - #D4A76A*/
+body{
+  background-color: #D4A76A;
+  font-family: sans-serif;
+  header{
+    background-color: #FFDBAA;
+    padding: 0% 5% 5% 2%;
+    #title{
+      color: #58380f;
+      float: left;
+      margin: 1%;
+    }
+    button{
+      background-color: #805215;
+      color: white;
+      float: right;
+      padding: 1%;
+      margin: 1%;
+    }
+  }
+  .Box {
+    text-align: center;
+    background-color: white;
+    box-shadow: 
+      10px 10px 10px #8f7248,
+      -10px 10px 10px #8f7248,
+      10px -10px 10px #8f7248,
+      -10px -10px 10px #8f7248;
+    padding: 2% 8.5%;
+    margin: 2%;
+    height: 200px;
+    
+    button{
+      background-color: #805215;
+      color: white;
+      float: center;
+      padding: 3%;
+    }
+  }
+  section{
+    float: left;
+    width: 11%;
+    p{
+      height: 90px;
+    }
+  }
+  footer {
+    float: center;
+    width: 75%;
+    clear: both;
+  }
+}
